@@ -1,4 +1,4 @@
-using this # Faculty Finder - University Problem-Solving Project
+# Faculty Finder - University Problem-Solving Project
 
 ## Problem Identification
 
