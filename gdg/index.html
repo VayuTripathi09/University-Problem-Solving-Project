@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Finder - University Helper</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏛️ Faculty Finder</h1>
+            <p class="subtitle">Find faculty offices quickly and easily</p>
+        </header>
+
+        <div class="search-section">
+            <div class="search-box">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    placeholder="Search by faculty name or department..."
+                    autocomplete="off"
+                >
+                <button id="searchBtn">Search</button>
+            </div>
+        </div>
+
+        <div class="results-section" id="resultsSection">
+            <div class="welcome-message">
+                <p>👋 Welcome! Search for a faculty member to find their office location.</p>
+                <p class="hint">Try searching for names like "Dr. Smith" or departments like "Computer Science"</p>
+            </div>
+        </div>
+
+        <div class="stats-section">
+            <div class="stat-card">
+                <span class="stat-number" id="totalFaculty">0</span>
+                <span class="stat-label">Faculty Members</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" id="totalDepartments">0</span>
+                <span class="stat-label">Departments</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
